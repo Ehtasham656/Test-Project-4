@@ -72,10 +72,10 @@ ul li a {
 button {
   margin-top: 1.2rem;
   width: fit-content;
-  padding: 1rem 1.5rem;
+  padding: 10px 25px;
   border-radius: 5rem;
   color: white;
-  background-color: rgb(255, 192, 76);
+  background-color: rgb(230, 169, 58);
   border: none;
 }
 
@@ -179,12 +179,8 @@ nav {
   height: 4px;
 }
 .tooltip-inner {
-  background-color: rgb(
-    235,
-    173,
-    60
-  ); /* Change this to your desired background color */
-  color: white; /* Optionally, change text color */
+  background-color: rgb(235, 173, 60);
+  color: white;
   font-size: 12px;
 }
 
@@ -328,6 +324,7 @@ input[type="text"]:focus {
   outline: none;
   border-bottom: 2px solid #ffdead;
   outline-width: 0;
+  box-shadow: none;
 }
 
 #input {
